@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+# downloaded source PDFs are not committed (see data/sources.csv + data/download.py)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/
+.chroma/

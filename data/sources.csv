@@ -1,0 +1,7 @@
+id,name,publisher,landing_url,direct_pdf_url,filename,license_note,approx_pages,status
+baybo,Bayerische Bauordnung (BayBO),Freistaat Bayern,https://www.gesetze-bayern.de/Content/Document/BayBO/true,https://www.gesetze-bayern.de/Content/Pdf/BayBO?all=True,baybo.pdf,Amtliches Werk (§ 5 UrhG); check site terms,63,todo
+geg,Gebäudeenergiegesetz (GEG),Bund / gesetze-im-internet.de,https://www.gesetze-im-internet.de/geg/,https://www.gesetze-im-internet.de/geg/GModG.pdf,geg.pdf,Amtliches Werk (§ 5 UrhG),79,todo
+hoai,Honorarordnung für Architekten und Ingenieure (HOAI 2021),Bund / gesetze-im-internet.de,https://www.gesetze-im-internet.de/hoai_2013/,https://www.gesetze-im-internet.de/hoai_2013/HOAI.pdf,hoai.pdf,Amtliches Werk (§ 5 UrhG),119,todo
+baugb,Baugesetzbuch (BauGB),Bund / gesetze-im-internet.de,https://www.gesetze-im-internet.de/bbaug/,https://www.gesetze-im-internet.de/bbaug/BauGB.pdf,baugb.pdf,Amtliches Werk (§ 5 UrhG),136,todo
+baunvo,Baunutzungsverordnung (BauNVO),Bund / gesetze-im-internet.de,https://www.gesetze-im-internet.de/baunvo/,https://www.gesetze-im-internet.de/baunvo/BauNVO.pdf,baunvo.pdf,Amtliches Werk (§ 5 UrhG),16,todo
+vob_b,VOB Teil B (Allgemeine Vertragsbedingungen für die Ausführung von Bauleistungen),Bundesbauministerium,https://www.bmwsb.bund.de (search: VOB Teil B 2019),https://www.bmwsb.bund.de/SharedDocs/downloads/DE/veroeffentlichungen/bauen/vob-teil-a-abschnitt-1-2019.pdf?__blob=publicationFile&v=1,vob_b.pdf,CHECK: DIN-published edition is copyrighted; use only the ministry's free edition,36,todo
