@@ -1,0 +1,21 @@
+id,doc_id,lang,question,expected_ref,note
+q01,baybo,de,Wie tief müssen Abstandsflächen grundsätzlich sein?,Art. 6,verify ref against downloaded PDF
+q02,baybo,de,Wie werden Gebäude in Gebäudeklassen eingeteilt?,Art. 2,
+q03,baybo,de,Welche Bauvorhaben sind verfahrensfrei?,Art. 57,
+q04,baybo,de,Welche Anforderungen gelten für den ersten und zweiten Rettungsweg?,Art. 31,
+q05,geg,de,Muss eine neue Heizung zu 65 Prozent mit erneuerbaren Energien betrieben werden?,§ 71,
+q06,geg,de,Wann muss ein Energieausweis ausgestellt werden?,§ 80,
+q07,hoai,de,Welche Leistungsphasen umfasst das Leistungsbild Gebäude?,§ 34,
+q08,hoai,de,Welche Honorarzonen gibt es?,§ 5,
+q09,hoai,de,Wie wird das Honorar nach anrechenbaren Kosten berechnet?,§ 6,
+q10,baugb,de,Wann ist ein Vorhaben innerhalb der im Zusammenhang bebauten Ortsteile zulässig?,§ 34,
+q11,baugb,de,Wann darf im Außenbereich gebaut werden?,§ 35,
+q12,baugb,de,Was regelt die Veränderungssperre?,§ 14,
+q13,baunvo,de,Welche Nutzungen sind in allgemeinen Wohngebieten zulässig?,§ 4,
+q14,baunvo,de,Wie wird die zulässige Grundfläche berechnet?,§ 19,
+q15,vob_b,de,Wie lange ist die Verjährungsfrist für Mängelansprüche?,§ 13,only valid if vob_b.pdf really is Teil B
+q16,vob_b,de,Wie ist die Abnahme der Bauleistung geregelt?,§ 12,
+q17,vob_b,de,Welche Rechte hat der Auftragnehmer bei Behinderung der Ausführung?,§ 6,
+q18,baybo,tr,Bir binanın komşu parsel sınırına en az ne kadar mesafede olması gerekir?,Art. 6,cross-lingual
+q19,geg,tr,Yeni kurulan bir ısıtma sisteminin yüzde kaçı yenilenebilir enerjiyle çalışmalıdır?,§ 71,cross-lingual
+q20,baugb,tr,Dış alanda (Außenbereich) yapı yapmak hangi koşullarda mümkündür?,§ 35,cross-lingual

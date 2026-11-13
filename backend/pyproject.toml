@@ -1,14 +1,30 @@
 [project]
 name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Construction documents RAG assistant - API and ingestion"
 readme = "README.md"
 authors = [
     { name = "Mustafa  Filiz", email = "mustafafiliz18@gmail.com" }
 ]
-requires-python = ">=3.9"
+requires-python = ">=3.13"
 dependencies = [
     "fastapi[standard]>=0.128.8",
+]
+
+[project.optional-dependencies]
+# Week 2 ingestion (kept out of the API image): uv sync --extra ingest
+ingest = [
+    "pymupdf>=1.24",
+    "chromadb>=0.5",
+    "sentence-transformers>=3.0",
+    "numpy",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "reportlab>=4",
+    "pypdf>=4",
 ]
 
 [project.scripts]
