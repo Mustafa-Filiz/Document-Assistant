@@ -9,11 +9,20 @@ services:
     environment:
       APP_ENV: ${APP_ENV:-dev}
       CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      # Inside the container the repo folders are mounted below, not next to the source code.
+      DATA_DIR: /app/data
+      CHROMA_PATH: /app/.chroma
     volumes:
       - ./data:/app/data:ro
+      - ./.chroma:/app/.chroma            # index built by `python -m backend.ingestion --index`
+      - hf_cache:/root/.cache/huggingface # embedding model is downloaded once, not on every start
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/health').status==200 else 1)"]
       interval: 10s
       timeout: 3s
       retries: 5
-  # Week 2+: vector DB (pgvector or Chroma) is added here.
+      start_period: 20s
+  # Week 2+: Chroma runs embedded (persistent folder above), so no separate DB service is needed yet.
+
+volumes:
+  hf_cache:

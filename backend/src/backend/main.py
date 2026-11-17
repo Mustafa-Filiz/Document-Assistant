@@ -3,11 +3,12 @@ from __future__ import annotations
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from backend.rag.api import router as ask_router
 from .config import settings
 
 app = FastAPI(
     title="Construction Documents RAG Assistant",
-    version="0.1.0",
+    version="0.2.0",
     description="Q&A over public German construction regulations, with source pages.",
 )
 
@@ -17,6 +18,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+app.include_router(ask_router)
 
 
 @app.get("/")

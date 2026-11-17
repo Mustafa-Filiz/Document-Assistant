@@ -1,0 +1,21 @@
+id,lang,question,expect,expected_doc,expected_ref,note
+t01,de,Wie tief müssen Abstandsflächen grundsätzlich sein?,answer,baybo,Art. 6,
+t02,de,Wie werden Gebäude in Gebäudeklassen eingeteilt?,answer,baybo,Art. 2,
+t03,de,Darf ich ein kleines Gartenhaus ohne Baugenehmigung bauen?,answer,baybo,Art. 57,colloquial phrasing; the statute never says "Gartenhaus"
+t04,de,Welche Anforderungen gelten für den ersten und zweiten Rettungsweg?,answer,baybo,Art. 31,
+t05,de,Muss eine neue Heizung zu 65 Prozent mit erneuerbaren Energien betrieben werden?,answer,geg,§ 71,missed by retrieval in the week-2 probe (q05)
+t06,de,Wann muss ein Energieausweis ausgestellt werden?,answer,geg,§ 80,
+t07,de,Welche Leistungsphasen umfasst das Leistungsbild Gebäude?,answer,hoai,§ 34,
+t08,de,Wann ist ein Vorhaben innerhalb der im Zusammenhang bebauten Ortsteile zulässig?,answer,baugb,§ 34,
+t09,de,Wann darf im Außenbereich gebaut werden?,answer,baugb,§ 35,
+t10,de,Was regelt die Veränderungssperre?,answer,baugb,§ 14,
+t11,de,Welche Nutzungen sind in allgemeinen Wohngebieten zulässig?,answer,baunvo,§ 4,
+t12,de,Wie wird die zulässige Grundfläche berechnet?,answer,baunvo,§ 19,
+t13,tr,Bir binanın komşu parsel sınırına en az ne kadar mesafede olması gerekir?,answer,baybo,Art. 6,cross-lingual
+t14,tr,Dış alanda (Außenbereich) yapı yapmak hangi koşullarda mümkündür?,answer,baugb,§ 35,cross-lingual
+t15,en,When does a building need an energy performance certificate?,answer,geg,§ 80,cross-lingual
+t16,de,Wie lange ist die Verjährungsfrist für Mängelansprüche?,decline,,,"the vob_b.pdf indexed so far is VOB Teil A (see chunk review: § 7 Leistungsbeschreibung, § 15 Aufklärung des Angebotsinhalts); § 13 is in Teil B. On-topic but unanswerable: only the LLM gate can catch this"
+t17,de,Wie backe ich einen Apfelkuchen?,decline_oos,,,
+t18,de,Wer hat die Fußball-Weltmeisterschaft 2014 gewonnen?,decline_oos,,,
+t19,de,Wie hoch darf ein Gebäude nach der Wiener Bauordnung sein?,decline_oos,,,wrong jurisdiction (Austria): the corpus has no Vienna law
+t20,de,Was kostet ein Kubikmeter Transportbeton aktuell?,decline_oos,,,market price; not in any statute
